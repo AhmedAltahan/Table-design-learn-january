@@ -1,0 +1,53 @@
+
+body {
+    position: relative;
+    height: 718px;
+    background-color: #ddd;
+}
+
+table {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-collapse: collapse;
+}
+
+table caption {
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    cursor:context-menu;
+}
+
+table tr {
+    text-align: center;
+    cursor:context-menu;
+}
+
+table th , td {
+    padding: 5px 5px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    cursor:context-menu;
+    transition: all 0.2s ease-in-out;
+    min-width: 50px;
+}
+
+.a {
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+tr:hover {
+    background-color: rgb(193, 212, 219);
+}
+
+table caption:hover {
+    color: green;
+}
+
+td:hover , th:hover {
+    color: blue;
+    background-color: skyblue;
+}
